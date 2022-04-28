@@ -1,0 +1,154 @@
+*{
+    padding:0;
+    margin:0;
+   
+}
+
+body{
+    width:100%;
+   
+
+}
+    
+.form-container{
+    width:60%;
+    background-color:whitesmoke;
+    height:100vh;
+    padding-right:40px;
+    padding-left:40px;
+
+}
+ .image-section{
+background-image: linear-gradient(to bottom, rgba(36, 34, 34, 0.52), rgba(0, 50, 10, 0.73)),
+url('techsavvy.jpg'); 
+opacity:0.6;
+background-size:cover;
+background-position: center;
+width:40%;
+height:100vh;
+
+         
+ }
+ h2{
+     font-family:'Lucida Sans', Verdana, sans-serif;
+     margin-left:10px;
+     font-size:32px;
+     color:white;
+ }
+ h3{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     text-align:right;
+     margin-top:500px;
+color:azure;
+margin-right:10px;
+ }
+ /*.overlay{
+    width:40%;
+height:100vh;
+opacity:0.7;
+background-color:linear-gradient(to the right, rgb(36, 34, 34, rgb(10, 50, 10)));
+
+ }*/
+
+.segment{
+ display:flex;
+ justify-content: space-between;
+}
+
+/*.in-form{
+    border:2px solid black;
+}*/
+
+.logo-section{
+display: flex;
+justify-content:flex-end;
+}
+
+h1{
+    font-family:'Courier New', Courier, monospace;
+    color:rgb(103, 212, 198);
+    font-size: 26px;
+ 
+}
+.part-one input[type="text"]{
+    padding: 10px;
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:90%;
+    font-size:21px;
+   
+}
+
+.part-one .input-box input[type="text"]{
+    border-radius:6px;
+   font-size:12px;
+
+
+}
+
+.part-one{
+    margin-top:20px;
+    padding-right:20px;
+    display:flex;
+  justify-content: space-around;
+}
+
+
+.part-one .input-box{
+    width:50%;
+}
+
+.input-box input[type="radio"]{
+    margin:20px;
+}
+.input-box select{
+    padding: 10px;
+    font-size:12px;
+    margin-bottom:20px;
+    border:1px solid rgb(182, 182, 169);
+    width:95%;
+    justify-content: space-around;
+}
+.input-box textarea{
+    resize:none;
+    width:95%;
+}
+/*.btn-section{
+    width:180px;
+    height:40px;
+    border-radius:10px;
+}
+.btn{
+    margin-top:20px;
+    float:right;
+  
+}
+
+.gradient-button {
+    font-size: 16px;
+    color: rgb(39, 35, 35);
+    cursor: pointer;
+    border:1px solid black;
+    text-decoration:none;
+   
+}*/
+a:link, a:visited {
+    background-image: linear-gradient(to right, #5edda8 0%, #89f243 51%, #2eebfc 100%);
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius:0px 12px 0px 12px;
+    width:180px;
+    height:40px;
+}
+
+a:hover, a:active {
+    color:black;
+    background-image:linear-gradient(to right, #DD5E89 0%, #F7BB97 51%, #DD5E89 100%);
+}
+.btn-section{
+    margin-top: 20px;
+    display:flex;
+    justify-content: flex-end;
+}
